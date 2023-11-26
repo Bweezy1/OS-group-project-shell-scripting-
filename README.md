@@ -57,4 +57,17 @@ The second version will use pthread_create() to execute commands on a separate t
 ```
 
 ## What to expect (2nd version)
-1. ...
+
+1. **Shell Prompt Display**: The program will display a prompt, something like `minishell>`, indicating that it's ready to accept a command.
+
+2. **Command Input**: You can enter a command, just like you would in a regular shell. For example, typing `ls` will list directory contents, or `pwd` to print the working directory.
+
+3. **Command Execution**: If the command is recognized and found in the directories specified in your PATH variable (or the hardcoded path in the shell), the program will execute the command using a new thread.
+The output of the command will be displayed on the terminal. For instance, using `ls` will show the list of files and directories in the current working directory.
+
+4. **Error Handling** If you enter an unrecognized command or one that is not in the specified path, the shell will display an error message like `<command>: command not found`. Any errors during the execution of a command, such as trying to execute a non-executable file, will result in an appropriate error message.
+
+5. **Continuous Operation**: After executing a command (or encountering an error), the shell will display the prompt again, waiting for the next command. This continues until the shell is exited.
+
+6. **Exiting the Shell**: Since a command to exit the shell (`exit` or similar) is not explicitly handled in the provided code, you'll need to use Ctrl+C or close the terminal window to exit the shell.
+
