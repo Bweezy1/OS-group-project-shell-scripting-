@@ -47,7 +47,7 @@ The second version will use pthread_create() to execute commands on a separate t
 2. To compile this program, use a C compiler like gcc:
 
 ```bash
- gcc -o minishell main.c -lpthread
+ gcc -o minishell minishell.c -lpthread
 ```
 
 3. Run the shell with..
