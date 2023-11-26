@@ -71,3 +71,58 @@ The output of the command will be displayed on the terminal. For instance, using
 
 6. **Exiting the Shell**: Since a command to exit the shell (`exit` or similar) is not explicitly handled in the provided code, you'll need to use Ctrl+C or close the terminal window to exit the shell.
 
+
+
+#### Commands to Test
+
+
+
+|   Input   |          Type          |         Description         |
+| :-------- | :--------------------- | :-------------------------- |
+|   `ls`    | File Directory Management | Lists directory contents     |
+|  `mkdir`  | File Directory Management | Creates a new directory      |
+|  `rmdir`  | File Directory Management | Removes an empty directory   |
+|   `rm`    | File Directory Management | Removes files or directories (use `rm -r` for recursive deletion) |
+|   `cp`    | File Directory Management | Copies files and directories |
+|   `mv`    | File Directory Management | Moves or renames files and directories |
+|  `touch`  | File Directory Management | Creates an empty file or updates the timestamp of existing files |
+|   `cat`   | File Directory Management | Concatenates and displays file contents |
+| :---------- | :------------------------- | :----------------------------- |
+|    `pwd`    | System Information & Management | Prints the current working directory |
+|  `whoami`   | System Information & Management | Displays the current user |
+|   `date`    | System Information & Management | Shows the current date and time |
+|   `echo`    | System Information & Management | Displays a line of text |
+|    `ps`     | System Information & Management | Displays information about active processes |
+|    `top`    | System Information & Management | Displays real-time information about running processes |
+|    `kill`   | System Information & Management | Sends a signal to a process, often used to terminate processes |
+| :---------- | :------------------------- | :----------------------------- |
+|    `ping`   | Networking                  | Checks connectivity with another network host |
+| `ifconfig/ip` | Networking                  | Displays or configures network interfaces |
+| :---------- | :------------------------- | :----------------------------- |
+|   `nano`    | File Viewing and Editing     | Text editor (availability depends on what's installed) |
+|    `vi`     | File Viewing and Editing     | Text editor (availability depends on what's installed) |
+|    `vim`    | File Viewing and Editing     | Text editor (availability depends on what's installed) |
+|   `emacs`   | File Viewing and Editing     | Text editor (availability depends on what's installed) |
+| :---------- | :------------------------- | :----------------------------- |
+|    `gcc`    | Compilation and Script Execution | Compiler for C (if installed) |
+|   `g++`     | Compilation and Script Execution | Compiler for C++ (if installed) |
+|   `javac`   | Compilation and Script Execution | Compiler for Java (if installed) |
+|  `python`   | Compilation and Script Execution | Runs Python scripts (if Python is installed) |
+|   `perl`    | Compilation and Script Execution | Runs Perl scripts (if Perl is installed) |
+|   `ruby`    | Compilation and Script Execution | Runs Ruby scripts (if Ruby is installed) |
+|   `bash`    | Compilation and Script Execution | Runs Bash scripts (if Bash is available) |
+|    `sh`     | Compilation and Script Execution | Runs Shell scripts (if Shell is available) |
+| :---------- | :------------------------- | :----------------------------- |
+|   `users`   | User and Group Management    | Displays users currently logged in |
+|  `groups`   | User and Group Management    | Displays groups a user is in |
+|  `passwd`   | User and Group Management    | Allows changing the user password |
+| :---------- | :------------------------- | :----------------------------- |
+|    `df`     | System Monitoring and Maintenance | Displays disk space usage |
+|    `du`     | System Monitoring and Maintenance | Displays disk usage of files and directories |
+|   `free`    | System Monitoring and Maintenance | Displays the amount of free and used memory in the system |
+| :---------- | :------------------------- | :----------------------------- |
+|    `tar`    | Archiving and Compression    | Tool for file archiving |
+|   `gzip`    | Archiving and Compression    | Tool for file compression |
+|  `gunzip`   | Archiving and Compression    | Tool for decompressing gzip files |
+|    `zip`    | Archiving and Compression    | Tool for creating zip archives |
+|   `unzip`   | Archiving and Compression    | Tool for extracting zip archives |
