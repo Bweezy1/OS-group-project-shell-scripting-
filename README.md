@@ -6,12 +6,12 @@ The first version will use fork() to execute commands through a child process.
 The second version will use pthread_create() to execute commands on a separate thread.
 
 ## Table of contents
-- How to run the project and what to expect (1st version)
-- Running the project (1st version ideal scenario)
-- How to run the project and what to expect (2nd version)
-- Running the project (2nd version ideal scenario)
+- Getting Started (1st version)
+- What to expect (1st version)
+- Getting Started (2nd version)
+- What to expect (2nd version)
 
-## How to run the project (1st version)
+## Getting Started (1st version)
 1. Clone the MiniShell repository to your local machine.
 2. To compile this program, use a C compiler like gcc:
 
@@ -25,7 +25,7 @@ The second version will use pthread_create() to execute commands on a separate t
   ./minishell
 ```
 
-## What to expect (1st version ideal scenario)
+## What to expect (1st version)
 
 1. **Shell Prompt Display**: When you run MiniShell, it will display a prompt similar to `minishell>`, indicating that it's ready to accept a command.
 
@@ -42,7 +42,7 @@ The second version will use pthread_create() to execute commands on a separate t
 6. **Exiting the Shell**: To exit MiniShell, you can use Ctrl+C or close the terminal window. MiniShell does not explicitly handle a command to exit the shell like `exit`, so closing the terminal is the recommended way to exit.
 
 
-## How to run the project and what to expect (2nd version)
+## Getting Started (2nd version)
 1. Clone the MiniShell repository to your local machine.
 2. To compile this program, use a C compiler like gcc:
 
@@ -56,5 +56,5 @@ The second version will use pthread_create() to execute commands on a separate t
   ./minishell
 ```
 
-## Running the project (2nd version ideal scenario)
+## What to expect (2nd version)
 1. ...
