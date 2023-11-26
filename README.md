@@ -12,7 +12,17 @@ The second version will use pthread_create() to execute commands on a separate t
 - Running the project (2nd version ideal scenario)
 
 ## How to run the project and what to expect (1st version)
-1. ...
+To compile this program, use a C compiler like gcc:
+
+```bash
+ gcc -o minishell minishell.c
+```
+
+Run the shell with..
+
+```bash
+  ./minishell
+```
 
 ## Running the project (1st version ideal scenario)
 1. ...
