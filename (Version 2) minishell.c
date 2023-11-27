@@ -1,3 +1,15 @@
+/*
+Authors: Brandon Nguyen, Tien Nguyen, Peter Phuc Phan
+Course: CPSC 4317
+Assignment: Simple Shell Project
+Instructor: Bo Sun
+
+This program contains the implementation of how the shell responds to user input commands. 
+When the shell first starts, it will put out "minishell> " to indicate that it is online and ready to take input commands from the user.
+Whether or not the shell execute a command or put out a "command not found" message after reading an input command depends on if the command is valid or not.
+Should the command be valid, the shell will create a new thread to handle and execute that command using pthread_create().
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
